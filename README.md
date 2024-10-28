@@ -1,80 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escola Dirce Celestino do Amaral</title>
+    <title>Document</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
+            /* * é utilizado para todos os elementos */
             margin: 0;
+            /* margem esterna */
             padding: 0;
-            background-color: #f4f4f4;
+            /* margem interna */
+            box-sizing: border-box;
+            /* incluir o preenchimento das bordas */
         }
+
+        body {
+            /* elementos flexível em um container */
+            display: flex;
+            margin: 3px;
+            flex-wrap: wrap;
+            flex: 1 1 100vw;
+        }
+
         header {
-            background: #4CAF50;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
+            display: flex;
+            margin: 3px;
+            background-color: rgb(49, 230, 26);
+            flex: 1 1 100vw;
+            height: 100px;
         }
+
         nav {
-            margin: 10px 0;
+            display: flex;
+            margin: 3px;
+            background-color: rgb(49, 230, 26);
+            flex: 1 1 200px;
         }
-        nav a {
-            margin: 0 15px;
-            color: white;
-            text-decoration: none;
+
+        main {
+            display: flex;
+            margin: 3px;
+            background-color: rgb(49, 230, 26);
+            height: calc(100vh - 224px);
+            flex: 20 1 500px;
         }
-        section {
-            padding: 20px;
-            margin: 10px;
-            background: white;
-            border-radius: 5px;
+
+        aside {
+            display: flex;
+            margin: 3px;
+            background-color: rgb(49, 230, 26);
+            flex: 1 1 200px;
         }
+
         footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #4CAF50;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            display: flex;
+            margin: 3px;
+            background-color: rgb(49, 230, 26);
+            height: 100px;
+            flex: 1 1 100vw;
         }
     </style>
 </head>
+
 <body>
-
-<header>
-   
-
-<img src="" alt="">
-
-    <nav>
-  
-        <a href="#sobre">Sobre Nós</a>
-        <a href="#programas">Programas</a>
-        <a href="#contato">Contato</a>
-    </nav>
-</header>
-
-<section id="sobre">
-    <h2>Sobre Nós</h2>
-    <p>A Escola Dirce Celestino do Amaral é uma instituição dedicada à educação de qualidade, onde o desenvolvimento integral de nossos alunos é uma prioridade. Oferecemos um ambiente acolhedor e diversas atividades que despertam o interesse pelo aprendizado.</p>
-</section>
-
-<section id="programas">
-    <h2>Programas</h2>
-    <p>Nossos programas incluem atividades acadêmicas, esportivas e culturais, todos desenhados para enriquecer a experiência educacional dos nossos alunos e prepará-los para o futuro.</p>
-</section>
-
-<section id="contato">
-    <h2>Contato</h2>
-    <p>Para mais informações, entre em contato conosco pelo e-mail: contato@escoladircecelestino.com.br</p>
-</section>
-
-<footer>
-    <p>&copy; 2024 Escola Dirce Celestino do Amaral. Todos os direitos reservados.</p>
-</footer>
-
+    <header> A Escola Professora Dirce Celestino do Amaral é um espaço acolhedor e inspirador, onde crianças e jovens desenvolvem seu conhecimento e criatividade, guiados por educadores dedicados e apaixonados pela formação e pelo futuro dos alunos. </header>
+    <nav> ... </nav>
+    <main> <img src="filipe.jpg" alt="">
+       <h1>Sou apaixonado por vôlei, sempre buscando aprimorar minhas habilidades na quadra e fortalecer laços com amigos. Além disso, gosto muito de jogos eletrônicos, que me permitem relaxar e me conectar com pessoas de todo o mundo.</h1>
+        <h2>A biologia também me fascina, pois me ajuda a entender melhor os seres vivos e os processos da natureza, despertando meu interesse por questões ambientais e de saúde. Estou animado para aprender e crescer em todas essas áreas! </h2>
+        </main>
+    <aside> Relacionado ao Principal </aside>
+    <footer> Rodapé </footer>
 </body>
+
 </html>
